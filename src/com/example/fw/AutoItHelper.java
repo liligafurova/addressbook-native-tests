@@ -10,7 +10,7 @@ import com.jacob.com.LibraryLoader;
 public class AutoItHelper extends HelperBase {
 
     static {
-        File jacob = new File("./lib/jacob-1.17-x64.dll");
+        File jacob = new File("./lib/jacob-1.15-M4-x64.dll");
         System.setProperty(LibraryLoader.JACOB_DLL_PATH, jacob.getAbsolutePath());
     }
 
